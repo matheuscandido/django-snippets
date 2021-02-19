@@ -121,3 +121,7 @@ class SensorHistorySerializer(serializers.BaseSerializer):
             return {"irpd_stream_v2": SensorStreamSerializerV2(instance=instance).data}
         return None
 ```
+
+## Wrap up
+
+Even though these code snippets aren't a full project, I believe they show I not only know Django, but I go beyond and create new architectures and constructs to achieve code reusability, clarity and features unavailable in the original framework toolset. 
